@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema id="CashConfigQueryResponse" targetNamespace="http://tempuri.org/CashConfigQueryResponse.xsd" xmlns:mstns="http://tempuri.org/CashConfigQueryResponse.xsd" xmlns="http://tempuri.org/CashConfigQueryResponse.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="CashConfigQueryResponse" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Fields">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Field" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="id" form="unqualified" type="xs:string" />
+                  <xs:attribute name="name" form="unqualified" type="xs:string" />
+                  <xs:attribute name="format" form="unqualified" type="xs:string" />
+                  <xs:attribute name="type" form="unqualified" type="xs:string" />
+                  <xs:attribute name="size" form="unqualified" type="xs:string" />
+                  <xs:attribute name="value" form="unqualified" type="xs:string" />
+                  <xs:attribute name="remarks" form="unqualified" type="xs:string" />
+                  <xs:attribute name="sub" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
